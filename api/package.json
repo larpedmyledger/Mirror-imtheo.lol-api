@@ -1,0 +1,18 @@
+{
+  "name": "offset-mirror-api",
+  "version": "1.0.0",
+  "description": "mirror imtheo.lol/Offsets/Offsets.hpp",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
