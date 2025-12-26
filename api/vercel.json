@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/offsets.js": { "maxDuration": 10 }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/offsets.js" }
+  ]
+}
